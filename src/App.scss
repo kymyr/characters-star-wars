@@ -1,0 +1,131 @@
+h1 {
+  text-align: center;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+@media (min-width: 992px) {
+  .character-card {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .character-card {
+    width: calc(33.33% - 2rem);
+  }
+}
+
+@media (min-width: 576px) {
+  .character-card {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media (min-width: 480px) {
+  .character-card {
+    width: 100%;
+  }
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  margin-left: -6px;
+  margin-right: -6px;
+  row-gap: 32px;
+
+  .card {
+    max-height: 620px !important;
+    max-width: 240px !important;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05); /* Scale up by 5% on hover */
+    }
+    
+    &-area {
+      border-radius: 8px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+      img {
+        max-height: 380px !important;
+        max-width: 240px !important;
+        border-radius: 8px 8px 0 0;
+      }
+    }
+
+    &-body {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding: 5px 24px 24px 24px;
+
+      p {
+        padding-bottom: 5px;
+      }
+        
+      .card-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1rem !important;
+        padding-top: 0;
+      }
+    }
+  }
+}
+
+.character-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.character-card-details {
+  padding: 1rem;
+  text-align: center;
+}
+
+.favorite-panel {
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: grey; /* Default color for unselected */
+}
+
+.favorite-button.favorite {
+  color: red; /* Color when selected */
+}
+
+.separator {
+  height: 1px;
+  width: 30%;
+  background-color: #ccc;
+  margin: 0 auto;
+}
