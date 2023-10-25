@@ -19,6 +19,11 @@ app.get('/api/characters', async (req, res) => {
   }
 });
 
+// Define a route for the root path
+app.get('/', (req, res) => {
+  res.send('Welcome to the Star Wars API!');
+});
+
 // Start the server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
