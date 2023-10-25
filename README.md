@@ -1,4 +1,4 @@
-![image](https://github.com/kymyr/characters-star-wars/assets/62489380/51fe6e6f-f02d-4b34-b690-fcfbcf25c59b)# Star Wars Characters
+### Star Wars Characters
 A simple web application that fetches data from Star Wars API.
 
 ## Features:
@@ -8,10 +8,10 @@ A simple web application that fetches data from Star Wars API.
 <img width="366" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/db1599b2-64ae-43d3-969f-d0a43cb50d89">
 
 ## Tablet Version
-<img width="779" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/338f454a-dde2-4211-acfd-5e342ed60d37">
+<img width="509" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/d5f4aa87-4bd9-4065-a865-0f8e44136f5b">
 
 ## Web Version
-<img width="509" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/d5f4aa87-4bd9-4065-a865-0f8e44136f5b">
+<img width="779" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/338f454a-dde2-4211-acfd-5e342ed60d37">
 
 ## Favorite (Heart) character(s)
 - pins your favorited characters on the top of the list. A cool way to showcase your favorite Star Wars characters!
