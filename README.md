@@ -1,4 +1,5 @@
 # Star Wars Characters
+A simple web application that fetches data from Star Wars API.
 
 ## Features:
 - Responsive UI, rows accomodate various screen sizes from mobile to PC
