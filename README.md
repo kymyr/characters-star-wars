@@ -7,13 +7,13 @@
 <img width="366" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/ea3a1adc-126f-4151-8486-4b1597526a99">
 
 ## Tablet Version
-<img width="968" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/64263777-c291-414e-8265-0305fb25116c">
+![image](https://github.com/kymyr/characters-star-wars/assets/62489380/e655daa9-2cd5-4221-b4f1-e12bd816c7f6)
 
 ## Web Version
 <img width="797" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/9b2fe58a-d129-4116-a9e4-8b3d929857f9">
 
 - Favorite (Heart) your character(s) - pins your favorited characters on the top of the list. A cool way to showcase your favorite Star Wars characters!
-![image](https://github.com/kymyr/characters-star-wars/assets/62489380/e655daa9-2cd5-4221-b4f1-e12bd816c7f6)
+<img width="968" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/64263777-c291-414e-8265-0305fb25116c">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Styling made possible with [Sass](https://sass-lang.com).
