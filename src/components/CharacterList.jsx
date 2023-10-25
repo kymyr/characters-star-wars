@@ -22,7 +22,10 @@ const CharacterList = () => {
   );
 
   useEffect(() => {
-    axios.get('http://localhost:3001/api/characters')
+    //  Local deploy
+    // axios.get('http://localhost:3001/api/characters')
+    // Deployed with render.com
+    axios.get('https://backend-no0f.onrender.com/api/characters')
       .then(response => {
         setCharacters(response.data);
       })
