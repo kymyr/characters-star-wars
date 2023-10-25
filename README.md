@@ -1,21 +1,21 @@
-# Star Wars Characters
+### Star Wars Characters
 A simple web application that fetches data from Star Wars API.
 
 ## Features:
 - Responsive UI, rows accomodate various screen sizes from mobile to PC
 
 ## Mobile Version
-<img width="366" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/ea3a1adc-126f-4151-8486-4b1597526a99">
+<img width="366" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/db1599b2-64ae-43d3-969f-d0a43cb50d89">
 
 ## Tablet Version
-![image](https://github.com/kymyr/characters-star-wars/assets/62489380/e655daa9-2cd5-4221-b4f1-e12bd816c7f6)
+<img width="509" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/d5f4aa87-4bd9-4065-a865-0f8e44136f5b">
 
 ## Web Version
-<img width="797" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/9b2fe58a-d129-4116-a9e4-8b3d929857f9">
+<img width="779" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/338f454a-dde2-4211-acfd-5e342ed60d37">
 
-- Favorite (Heart) your character(s) - pins your favorited characters on the top of the list. A cool way to showcase your favorite Star Wars characters!
-<img width="968" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/64263777-c291-414e-8265-0305fb25116c">
-
+## Favorite (Heart) character(s)
+- pins your favorited characters on the top of the list. A cool way to showcase your favorite Star Wars characters!
+<img width="813" alt="image" src="https://github.com/kymyr/characters-star-wars/assets/62489380/532aaec7-b7cd-4de2-9b9e-e726001c33ed">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Styling made possible with [Sass](https://sass-lang.com).
 
@@ -31,7 +31,7 @@ Installs required dependencies
 ### `npm i`
 ### `node server.js`
 
-Runs the backend service to fetch API data
+Runs the backend service to fetch API data locally
 
 ### `npm start`
 
