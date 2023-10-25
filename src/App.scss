@@ -2,28 +2,6 @@ h1 {
   text-align: center;
 }
 
-.character-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-.character-card {
-  margin: 1rem;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-  &-card-details {
-    padding: 1rem;
-    text-align: center;
-  }
-}
-
 @media (min-width: 992px) {
   .character-card {
     width: calc(25% - 2rem);
@@ -116,10 +94,10 @@ h1 {
   cursor: pointer;
   font-size: 24px;
   color: grey; /* Default color for unselected */
-}
 
-.favorite-button.favorite {
-  color: red; /* Color when selected */
+  &.favorite {
+    color: red; /* Color when selected */
+  }
 }
 
 .separator {
