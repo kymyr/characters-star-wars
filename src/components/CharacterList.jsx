@@ -25,7 +25,7 @@ const CharacterList = () => {
     //  Local deploy
     // axios.get('http://localhost:3001/api/characters')
     // Deployed with render.com
-    axios.get('https://backend-no0f.onrender.com/api/characters')
+    axios.get('https://star-wars-backend-5dv2.onrender.com/api/characters')
       .then(response => {
         setCharacters(response.data);
       })
